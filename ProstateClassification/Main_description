@@ -1,1 +1,10 @@
+# process. py 
 
+The main programme for prostate risk prediction 
+
+Input : Prostate T2w MRI (axial-t2-prostate-mri), corresponding to the image in mha format.
+        Clinical data (psa-and-age.json), which includes the patient age and PSA.
+
+Output: 
+      The risk score (prostate-cancer-risk-score.json) which can have the values "Low" or "High".
+      The risk score likelihood (prostate-cancer-risk-score-likelihood.json) which represents the probability given by the model.
