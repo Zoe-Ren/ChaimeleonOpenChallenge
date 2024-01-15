@@ -1,1 +1,1 @@
-
+The "pre_processing.py" in this folder performs initial reading, normalization, and the first-step feature extraction for CT images. Here, 3D wavelet transformation is employed for feature extraction, with the selection of approximation coefficients as the initial feature extraction entities.
