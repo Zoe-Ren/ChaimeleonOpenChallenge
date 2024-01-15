@@ -1,1 +1,10 @@
+# CT image
 
+Feature extraction by a 3d cnn model 
+and selection by a Proportional hazards model 
+The process can be found in survial_model.py script
+
+# clinical data 
+
+Feautre selection by a Proportional hazards model 
+The process can be found in survival prediction clinical data. ipynb
