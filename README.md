@@ -6,7 +6,7 @@ For the binary classification of cancer levels, I employ an initial feature sele
 
 The detail can be found in the methode_explication_prostate
 
-## Lung classfication 
+## Lung Classfication 
 
 To predict survival time using CT images and clinical data, I initially utilize a Proportional Hazards model to select significant features from the clinical data, setting the threshold at p < 0.05. In the case of 3D image volumes, I also employ the 3D wavelet transform combined with a 3D CNN model to extract significant volumetric features. The selection process involves the Proportional Hazards model with a threshold set at p < 0.05. Finally, a combined dataset comprising clinical features and CT image volumetric features will be used to train a Proportional Hazards Model.
 
