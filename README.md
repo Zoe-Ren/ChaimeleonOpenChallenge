@@ -4,7 +4,7 @@
 
 For the binary classification of cancer levels, I employ an initial feature selection method, the 3D wavelet transform, to extract the volume of approximation coefficients. Given an imbalanced distribution with 210 cases at the low level and 85 cases at the high level, I randomly select 90 cases from the low level and all 85 cases from the high level to train a 3D CNN model. This process is repeated three times, and the prediction risk is derived by averaging the output predictions from these three runs.
 
-The detail can be found in the methode_description_prostate
+The detail can be found in the methode_description_prostate.pdf
 
 ## Lung Classification 
 
