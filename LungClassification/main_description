@@ -1,1 +1,9 @@
+# process.py 
 
+Main scripte 
+
+Input : Chest CT (chest-ct), corresponding to the image in mha format.
+Clinical data (clinical-information-lung-ct), which includes the patient age, gender, smoking status, clinical category, regional nodes category and metastasis category (TNM).
+Then, after overall survival prediction, the model has to provide one main output:
+
+output : Predicted survival time in months (overall-survival-months.json).
